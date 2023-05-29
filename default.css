@@ -1,0 +1,87 @@
+:root {
+  --white: #FFF;
+  --black: #000;
+  --font-color-base: #666;
+  --font-color-dark: #212529;
+  --footer: #34314b;
+  --footer-base: #2e2b45;
+  --bright-blue: #2476FF;
+  --bg-dark: #20335B;
+  --font-color-bullet-light: #ecf2ff;
+  --size-10: 0.625rem;
+  --size-12: 0.75rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-22: 1.375rem;
+  --size-26: 1.625rem;
+  --size-30: 1.875rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-60: 3.75rem;
+  --size-80: 5rem;
+  --size-100: 6.25rem;
+  --size-150: 9.75rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: var(--size-14);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+button {
+  border-radius: 30px;
+  background-color: royalblue;
+  border: none;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  width: 100%;
+  font-size: var(--size-16);
+  position: fixed;
+}
+
+hr {
+  margin: 2rem 2rem;
+  background-color: rgb(226, 226, 226);
+  border-style: none;
+  height: 1px;
+}
+
+h3 {
+  color: var(--font-color-dark);
+  font-weight: 800;
+  margin-top: 0;
+}
